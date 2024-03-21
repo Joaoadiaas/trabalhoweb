@@ -126,6 +126,12 @@
             background-color: red;
             color: #fff;
         }
+    
+        section img {
+            max-width: 350px;
+        display: block;
+        margin: auto; 
+        }
     </style>
 </head>
 <body>
@@ -134,11 +140,15 @@
         <h1>Portfólio de João Pedro Dias</h1>
     </header>
 
+    <section id="imagem">
+        <img src="imagem/29d7ef87-e6b5-40bd-8192-9d485070751d.jpg" alt="Sua imagem">
+    </section>    
+    
     <nav>
         <ul>
             <li><a href="#sobre">Sobre Mim</a></li>
-            <li><a href="#projeto1">Projeto 1</a></li>
-            <li><a href="#projeto2">Projeto 2</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#projeto">Projeto</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
@@ -148,9 +158,43 @@
         <p>Olá! Sou João Pedro Dias, um entusiasta de tecnologia e desenvolvimento web. Estou atualmente cursando Ciência da Computação e buscando oportunidades para aplicar meus conhecimentos em projetos desafiadores e inovadores.</p>
     </section>
 
-    <section id="projeto1">
-        <h2>Projeto 1</h2>
-        <p>O Projeto 1 foi uma aplicação web desenvolvida para gerenciamento de tarefas. Foi construída utilizando HTML, CSS e JavaScript, permitindo aos usuários criar, editar e excluir tarefas de forma simples e intuitiva.</p>
+    <section id="informacoes">
+        <h2>Informações de Contato</h2>
+        <table>
+            <caption>Informações de Contato</caption>
+            <tbody>
+                <tr>
+                    <td>Email:</td>
+                    <td>jpdias3@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Celular:</td>
+                    <td>(81) 99849-7093</td>
+                </tr>
+                <tr>
+                    <td>GitHub:</td>
+                    <td><a href="https://github.com/Joaoadiaas">Joaoadiaas</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    
+    <section id="objetivos">
+        <h2>Objetivos</h2>
+        <p>Além dos projetos que desenvolvi, tenho também alguns objetivos pessoais e profissionais:</p>
+        <ul>
+            <li>Ter a experiência de morar fora</li>
+            <li>Alcançar estabilidade financeira</li>
+            <li>Trabalhar em uma empresa de grande expressão nacional</li>
+            <li>Desenvolver mais projetos que facilitem a vida das pessoas</li>
+        </ul>
+    </section>
+
+    <section id="projeto">
+        <h2>Projeto</h2>
+        <p>Este projeto foi uma aplicação web desenvolvida para gerenciamento de tarefas. Foi construída utilizando HTML, CSS e JavaScript, permitindo aos usuários criar, editar e excluir tarefas de forma simples e intuitiva.</p>
         <table>
             <caption>Tarefas</caption>
             <thead>
@@ -190,47 +234,6 @@
         </table>
     </section>
 
-    <section id="projeto2">
-        <h2>Projeto 2</h2>
-        <p>O Projeto 2 foi um aplicativo mobile desenvolvido para monitoramento de atividades físicas. Utilizando React Native, este aplicativo permite aos usuários registrar suas atividades físicas diárias, acompanhar seu progresso e definir metas de treinamento.</p>
-        <table>
-            <caption>Atividades</caption>
-            <thead>
-                <tr>
-                    <th>Data</th>
-                    <th>Descrição</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>05/04/2023</td>
-                    <td>Implementação do login</td>
-                    <td>Concluído</td>
-                </tr>
-                <tr>
-                    <td>15/04/2023</td>
-                    <td>Desenvolvimento da tela principal</td>
-                    <td>Concluído</td>
-                </tr>
-                <tr>
-                    <td>25/04/2023</td>
-                    <td>Integração com API de geolocalização</td>
-                    <td>Em andamento</td>
-                </tr>
-                <tr>
-                    <td>10/05/2023</td>
-                    <td>Implementação de gráficos de progresso</td>
-                    <td>Pendente</td>
-                </tr>
-                <tr>
-                    <td>20/05/2023</td>
-                    <td>Testes de usabilidade</td>
-                    <td>Pendente</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
 
     <section id="contato">
         <h2>Contato</h2>
